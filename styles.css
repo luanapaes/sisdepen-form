@@ -91,6 +91,37 @@ button {
     background: transparent;
 }
 
+@media (max-width: 768px) {
+    .container {
+        display: block;
+        min-height: auto;
+        padding: 0 16px 24px;
+    }
+
+    main {
+        padding: 20px 0 0;
+    }
+
+    .site-header {
+        padding: 18px 16px;
+    }
+
+    .card {
+        border-radius: 12px;
+        box-shadow: none;
+        margin-bottom: 18px;
+    }
+
+    .field {
+        margin-bottom: 16px;
+    }
+
+    button {
+        width: 100%;
+        display: block;
+    }
+}
+
 .site-header .site-title {
     font-size: 28px;
     color: #003c91;
