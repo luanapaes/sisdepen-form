@@ -181,6 +181,7 @@ function renderizar() {
                 <input
                     type="number"
                     id="${pergunta.id}"
+                    min="0"
                 >
             `;
 
