@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SISDEPEN Dinâmico</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <aside class="sidebar">
+
+            <h1>SISDEPEN DINÂMICO</h1>
+
+            <p>
+                Formulário inteligente com lógica condicional
+            </p>
+
+            <div class="info">
+                Apenas perguntas aplicáveis à unidade são exibidas.
+            </div>
+
+        </aside>
+
+        <main>
+
+            <div class="card">
+
+                <h2>Identificação da Unidade</h2>
+
+                <div class="field">
+
+                    <label>Sexo da Unidade</label>
+
+                    <select id="sexo">
+                        <option value="">Selecione</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="misto">Misto</option>
+                    </select>
+
+                </div>
+
+                <div class="field">
+
+                    <label>Tipo de Unidade</label>
+
+                    <select id="tipo">
+
+                        <option value="">Selecione</option>
+
+                        <option value="triagem">
+                            Unidade de Triagem
+                        </option>
+
+                        <option value="penitenciaria">
+                            Penitenciária
+                        </option>
+
+                        <option value="colonia">
+                            Colônia Agrícola
+                        </option>
+
+                        <option value="hospital">
+                            Hospital de Custódia
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </div>
+
+            <div class="card">
+
+                <h2>Perguntas Aplicáveis</h2>
+
+                <div id="perguntas"></div>
+
+            </div>
+
+            <div class="card">
+
+                <button id="salvar">
+                    Salvar
+                </button>
+
+                <button id="limpar">
+                    Limpar Storage
+                </button>
+
+            </div>
+
+        </main>
+
+    </div>
+
+    <script src="scripts.js"></script>
+
+</body>
+
+</html>
