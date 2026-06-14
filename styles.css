@@ -85,3 +85,14 @@ button {
     background: #0058d6;
     color: white;
 }
+
+.site-header {
+    padding: 20px 30px;
+    background: transparent;
+}
+
+.site-header .site-title {
+    font-size: 28px;
+    color: #003c91;
+    text-align: left;
+}
